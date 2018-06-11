@@ -2,7 +2,7 @@
 # Terminology
 Is is important to understand the difference between Service Pack and Update rollup. This is an [extract from Microsoft blog post](https://blogs.msdn.microsoft.com/muaddib/2014/02/03/list-of-rollup-updates-for-windows-88-1-windows-server-2012-2012-r2/):
 
->**Service pack **\
+>**Service pack**\
 >_**Definition**_: A tested, cumulative set of all hotfixes, security updates, critical updates, and updates. Additionally, service packs may contain additional fixes for problems that are found internally since the release of the product. Service packs my also contain a limited number of customer-requested design changes or features.
 
 >**Update rollup**\
