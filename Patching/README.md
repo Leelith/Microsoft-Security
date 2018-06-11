@@ -2,19 +2,19 @@
 # Terminology
 Is is important to understand the difference between Service Pack and Update rollup. This is an [extract from Microsoft blog post](https://blogs.msdn.microsoft.com/muaddib/2014/02/03/list-of-rollup-updates-for-windows-88-1-windows-server-2012-2012-r2/) and [this support note](https://support.microsoft.com/en-za/help/824684/description-of-the-standard-terminology-that-is-used-to-describe-micro):
 
->**Critical update**\
+### Critical update
 >_Definition_:\
 >A widely released fix for a specific problem that addresses a critical, non-security-related bug.
 
->**Definition update**\
+### Definition update
 >_Definition_:\
 >A widely released and frequent software update that contains additions to a product’s definition database. Definition databases are often used to detect objects that have specific attributes, such as malicious code, phishing websites, or junk mail.
 
->**Feature pack**\
+### Feature pack
 >_Definition_:\
 >New product functionality that is first distributed outside the context of a product release and that is typically included in the next full product release.
 
->**Security update**\
+### Security update
 >_Definition_:\
 >A widely released fix for a product-specific, security-related vulnerability. Security vulnerabilities are rated by their severity. The severity rating is indicated in the Microsoft security bulletin as critical, important, moderate, or low.
 
@@ -22,27 +22,28 @@ Is is important to understand the difference between Service Pack and Update rol
 >Microsoft security updates are available for customers to download and are accompanied by two documents: a security bulletin and a Microsoft Knowledge Base article. For more information about the format of Microsoft Knowledge Base articles for Microsoft security updates, click the following article number to view the article in the Microsoft Knowledge Base:
 > * 824689 Description of the format of Microsoft Knowledge Base articles for Microsoft Security Updates
 
->**Service pack**\
+### Service pack
 >_Definition_:\ 
 >A tested, cumulative set of all hotfixes, security updates, critical updates, and updates. Additionally, service packs may contain additional fixes for problems that are found internally since the release of the product. Service packs my also contain a limited number of customer-requested design changes or features.
 
->**Update**\
+### Update
 >_Definition_:\
 >A widely released fix for a specific problem. An update addresses a noncritical, non-security-related bug.
 Update rollup
 
+### Update rollup
 >_Definition_:\
 >A tested, cumulative set of hotfixes, security updates, critical updates, and updates that are packaged together for easy deployment. A rollup generally targets a specific area, such as security, or a component of a product, such as Internet Information Services (IIS).
 
->**Security-only update**\
+### Security-only update
 >_Definition_:\
 >An update that collects all the new security updates for a given month and for a given product, addressing security-related vulnerabilities and distributed through Windows Server Update Services (WSUS), System Center Configuration Manager and Microsoft Update Catalog. Security vulnerabilities are rated by their severity. The severity rating is indicated in the Microsoft security bulletin as critical, important, moderate, or low. This Security-only update would be displayed under the title Security Only Quality Update when you download or install the update and will be classified as an "Important" update.
 
->**Monthly Rollup**\
+### Monthly Rollup
 >_Definition_:\
 >A tested, cumulative set of updates. They include both security and reliability updates that are packaged together and distributed over Windows Update, WSUS, System Center Configuration Manager and Microsoft Update Catalog for easy deployment. The Monthly Rollup is product specific, addresses both new security issues and nonsecurity issues in a single update and will proactively include updates that were released in the past. Security vulnerabilities are rated by their severity. The severity rating is indicated in the Microsoft security bulletin as critical, important, moderate, or low. This Monthly Rollup would be displayed under the title Security Monthly Quality Rollup when you download or install. This Monthly Rollup will be classified as an "Important" update on Windows Update and will automatically download and install if your Windows Update settings are configured to automatically download and install Important updates.
 
->**Preview of Monthly Rollup**\
+### Preview of Monthly Rollup
 >_Definition_:\
 >A tested, cumulative set of new updates that are packaged together and distributed over Windows Update, WSUS, System Center Configuration Manager and Microsoft Update Catalog ahead of the release of the next Monthly Rollup for customers to proactively download, test and provide feedback. The Preview of Monthly Rollup is product specific and addresses new non-security updates, and includes fixes from the latest Monthly Rollup. This Preview of Monthly Rollup would be displayed under the title Preview of Monthly Quality Rollup when you download or install and will be classified as an "Optional" update.
 
