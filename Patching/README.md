@@ -2,11 +2,11 @@
 # Terminology
 Is is important to understand the difference between Service Pack and Update rollup. This is an [extract from Microsoft blog post](https://blogs.msdn.microsoft.com/muaddib/2014/02/03/list-of-rollup-updates-for-windows-88-1-windows-server-2012-2012-r2/):
 
->**Service pack **
->***Definition***: A tested, cumulative set of all hotfixes, security updates, critical updates, and updates. Additionally, service packs may contain additional fixes for problems that are found internally since the release of the product. Service packs my also contain a limited number of customer-requested design changes or features.
+>**Service pack **\
+>_**Definition**_: A tested, cumulative set of all hotfixes, security updates, critical updates, and updates. Additionally, service packs may contain additional fixes for problems that are found internally since the release of the product. Service packs my also contain a limited number of customer-requested design changes or features.
 
->**Update rollup**
->***Definition***: A tested, cumulative set of hotfixes, security updates, critical updates, and updates that are packaged together for easy deployment. A rollup generally targets a specific area, such as security, or a component of a product, such as Internet Information Services (IIS).
+>**Update rollup**\
+>_**Definition**_: A tested, cumulative set of hotfixes, security updates, critical updates, and updates that are packaged together for easy deployment. A rollup generally targets a specific area, such as security, or a component of a product, such as Internet Information Services (IIS).
 
 Please keep in mind the lists below may not be exhaustive but were complete as of the time of this writing.  I’ll try to keep this list updated going forward.  You should search TechNet for “<operating system> update rollup” to find the latest update rollup packages.  Another option is to use Microsoft Baseline Security Analyzer (MBSA) or Windows Update to scan for missing updates.
 
